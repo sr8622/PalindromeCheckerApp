@@ -1,13 +1,17 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+git filter-branch --env-filter "
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
-    }
-}
+OLD_EMAIL='yadavrishika03@gmail.com'
+CORRECT_NAME='Shirley Rubesh'
+CORRECT_EMAIL='YOUR_GITHUB_EMAIL'
+
+        if [ \"$GIT_COMMITTER_EMAIL\" = \"$OLD_EMAIL\" ]
+then
+export GIT_COMMITTER_NAME=\"$CORRECT_NAME\"
+export GIT_COMMITTER_EMAIL=\"$CORRECT_EMAIL\"
+fi
+if [ \"$GIT_AUTHOR_EMAIL\" = \"$OLD_EMAIL\" ]
+then
+export GIT_AUTHOR_NAME=\"$CORRECT_NAME\"
+export GIT_AUTHOR_EMAIL=\"$CORRECT_EMAIL\"
+fi
+" -- --all

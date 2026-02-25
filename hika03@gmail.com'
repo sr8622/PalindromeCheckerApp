@@ -1,0 +1,41 @@
+[33mcommit 4bde122c62b37a6521fd23f24dad2e32e0a57b44[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelop[m[33m, [m[1;31morigin/feature/UC6[m[33m, [m[1;31morigin/develop[m[33m, [m[1;32mfeature/UC6[m[33m)[m
+Author: YadavRishika <yadavrishika03@gmail.com>
+Date:   Wed Feb 25 10:40:02 2026 +0530
+
+    UC6:QueueandStackBasedPalindromeCheck
+
+[33mcommit 0af75c50d45e717865188028e4c67a3356a4f540[m[33m ([m[1;31morigin/feature/UC5[m[33m, [m[1;32mfeature/UC5[m[33m)[m
+Author: YadavRishika <yadavrishika03@gmail.com>
+Date:   Wed Feb 25 10:27:18 2026 +0530
+
+    UC5:StackBasedPalindromeChecker
+
+[33mcommit 554e93f33d372b2e3985924b38a21800a03c8b92[m[33m ([m[1;31morigin/feature/UC4[m[33m, [m[1;32mfeature/UC4[m[33m)[m
+Author: YadavRishika <yadavrishika03@gmail.com>
+Date:   Wed Feb 25 10:17:18 2026 +0530
+
+    UC4:CharacterArrayBasedPalindromeCheck
+
+[33mcommit eb03340d3c060ac8a2f994c851bcb03e487c08e1[m[33m ([m[1;31morigin/feature/UC3[m[33m, [m[1;32mfeature/UC3[m[33m)[m
+Author: YadavRishika <yadavrishika03@gmail.com>
+Date:   Wed Feb 25 09:41:40 2026 +0530
+
+    UC3:PalindromeCheckUsingReverseString
+
+[33mcommit 0895d288a6c4a189d32a2663c2a94f93bd7a325c[m[33m ([m[1;31morigin/feature/UC2[m[33m, [m[1;32mfeature/UC2[m[33m)[m
+Author: YadavRishika <yadavrishika03@gmail.com>
+Date:   Wed Feb 25 09:29:26 2026 +0530
+
+    UC2:Hardcoded palindrome
+
+[33mcommit 23f930d3ee8776b952da3e702f3f8a287991e012[m[33m ([m[1;31morigin/feature/UC1[m[33m, [m[1;32mfeature/UC1[m[33m)[m
+Author: YadavRishika <yadavrishika03@gmail.com>
+Date:   Wed Feb 25 09:21:08 2026 +0530
+
+    UC1:Add welcome message module
+
+[33mcommit 3df03050760e1314668b456f3bdb044426807c27[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: YadavRishika <yadavrishika03@gmail.com>
+Date:   Wed Feb 25 08:57:09 2026 +0530
+
+    Base application setup
